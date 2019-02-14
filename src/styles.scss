@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'fonts';
+@import 'layout';
+//fonts
+
+h1{
+  font-size:$h1-fontsize;
+}
+
+h2{
+  font-size:$h2-fontsize;
+}
+
+
+p,a,li,span{
+  font-size:$regular-fontsize;
+}
+
+@media(min-width:$md-breakpoint){
+    body{
+      font-size: 17px;
+    }
+}

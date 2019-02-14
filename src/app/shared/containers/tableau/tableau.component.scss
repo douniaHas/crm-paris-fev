@@ -1,0 +1,14 @@
+@import 'theme';
+#tab .state-annule{
+  background: $palette-color-one;
+}
+
+#tab .state-option{
+  background: lighten($palette-color-one,30);
+}
+
+#tab .state-confirme{
+  background: $palette-color-three;
+}
+
+
